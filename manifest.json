@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "BlockGame block for yougame",
+  "description": "Blocking retards on Russian cheat forum YouGame.biz",
+  "version": "1.0.0",
+  "author": "Dalton",
+  "action": {
+    "default_title": "YouGame block game block"
+  },
+  "permissions": [
+    "scripting",
+    "tabs",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "https://yougame.biz/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
