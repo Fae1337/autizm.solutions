@@ -105,14 +105,17 @@
         "expensive 2.0",
         "wild",
         "killaura",
-        "килка", "киллаура",
+        "килка", "киллаура", "киллку", "киллка",
         "slothac",
         "elytratarget",
         "nurik",
         "rogalik",
         "teslacraft",
         "ителидж", "интелидж", // самые тупорылые ебланы кто пишут так
-        "deslight"
+        "deslight",
+        "автобай",
+        "минцед",
+        "ватермарка",
     ];
 
     function removeAds(banword_list) {
@@ -134,3 +137,4 @@
 
     removeAds(retards_title);
 })();
+
